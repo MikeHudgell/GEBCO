@@ -7,7 +7,7 @@ def geo_idx(dd, dd_array):
     geo_index = (np.abs(dd_array - dd)).argmin()
     return geo_index
 
-gebco = netCDF4.Dataset('/media/mike/HDD/git/gebco/data/GEBCO_2014_2D.nc')
+gebco = netCDF4.Dataset('/media/mike/HDD/git/GEBCO/data/GEBCO_2014_2D.nc')
 lats = gebco.variables['lat'][:]
 lons = gebco.variables['lon'][:]
 print(lats.shape)

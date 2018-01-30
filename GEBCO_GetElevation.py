@@ -50,7 +50,7 @@ def get_elevation(lat, lon):
 #
 #Tests
 #
-gebco, lats, lons  = open_GEBCO_file('/media/mike/HDD/git/gebco/data/GEBCO_2014_2D.nc')
+gebco, lats, lons  = open_GEBCO_file('/media/mike/HDD/git/GEBCO/data/GEBCO_2014_2D.nc')
 #
 #
 print(get_elevation(51.65, -3.2))
